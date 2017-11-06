@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:1456753835a00c0260b3dd2-61788455%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:542207635a00de5eb18852-34956856%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,33 +9,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1456753835a00c0260b3dd2-61788455',
+  'nocache_hash' => '542207635a00de5eb18852-34956856',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a00d43be8bd28_28032842',
+  'unifunc' => 'content_5a00e0ca34d5f9_62629009',
   'has_nocache_code' => true,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a00d43be8bd28_28032842')) {function content_5a00d43be8bd28_28032842($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a00e0ca34d5f9_62629009')) {function content_5a00e0ca34d5f9_62629009($_smarty_tpl) {?>
 	<!-- Block CMS module footer -->
 	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 		<h4>Informacja</h4>
 		<ul class="toggle-footer">
-							<li class="item">
-					<a href="http://192.168.99.100/promocje" title="Promocje">
-						Promocje
-					</a>
-				</li>
 									<li class="item">
 				<a href="http://192.168.99.100/nowe-produkty" title="Nowe produkty">
 					Nowe produkty
 				</a>
 			</li>
-										<li class="item">
-					<a href="http://192.168.99.100/najczesciej-kupowane" title="Najczęściej kupowane">
-						Najczęściej kupowane
-					</a>
-				</li>
-										<li class="item">
+													<li class="item">
 					<a href="http://192.168.99.100/sklepy" title="Nasze sklepy">
 						Nasze sklepy
 					</a>

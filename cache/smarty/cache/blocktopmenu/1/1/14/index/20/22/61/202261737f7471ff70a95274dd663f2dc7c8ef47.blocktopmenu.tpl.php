@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:2090683795a00c02454af47-63241805%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:998388595a00de5cdf01e5-63084467%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,10 +9,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2090683795a00c02454af47-63241805',
+  'nocache_hash' => '998388595a00de5cdf01e5-63084467',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a00d103921f85_72571550',
+  'unifunc' => 'content_5a00e1af75b873_21035297',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a00d103921f85_72571550')) {function content_5a00d103921f85_72571550($_smarty_tpl) {?><?php }} ?>
+<?php if ($_valid && !is_callable('content_5a00e1af75b873_21035297')) {function content_5a00e1af75b873_21035297($_smarty_tpl) {?>	<!-- Menu -->
+	<div id="block_top_menu" class="sf-contener clearfix col-lg-12">
+		<div class="cat-title">Zakładki</div>
+		<ul class="sf-menu clearfix menu-content">
+			<li><a href="http://192.168.99.100/" title="Główna">Główna</a><ul><li><a href="http://192.168.99.100/12-audiobooki" title="audiobooki">audiobooki</a></li></ul></li><li><a href="http://192.168.99.100/12-audiobooki" title="audiobooki">audiobooki</a></li>
+					</ul>
+	</div>
+	<!--/ Menu -->
+<?php }} ?>

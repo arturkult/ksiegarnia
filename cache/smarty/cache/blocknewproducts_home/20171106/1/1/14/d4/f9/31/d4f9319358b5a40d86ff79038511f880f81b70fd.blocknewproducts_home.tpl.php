@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:11853050305a00ca7fe92cb6-40873589%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:4179952755a00de5dce8e60-74918267%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -15,13 +15,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '11853050305a00ca7fe92cb6-40873589',
+  'nocache_hash' => '4179952755a00de5dce8e60-74918267',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a00d13b8d1f38_89436087',
+  'unifunc' => 'content_5a00e02e14c794_57502489',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a00d13b8d1f38_89436087')) {function content_5a00d13b8d1f38_89436087($_smarty_tpl) {?>		
+<?php if ($_valid && !is_callable('content_5a00e02e14c794_57502489')) {function content_5a00e02e14c794_57502489($_smarty_tpl) {?>		
 									
 		
 	
@@ -45,23 +45,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<a class="quick-view" href="http://192.168.99.100/audiobooki/21-kreowanie-wizerunku-w-biznesie-i-polityce-cd-autor-grazyna-bialopiotrowicz.html" rel="http://192.168.99.100/audiobooki/21-kreowanie-wizerunku-w-biznesie-i-polityce-cd-autor-grazyna-bialopiotrowicz.html">
 							<span>Szybki podgląd</span>
 						</a>
-																			<div class="content_price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-																	<span itemprop="price" class="price product-price">
-										
-										0,00 zł									</span>
-									<meta itemprop="priceCurrency" content="PLN" />
-																												<span class="unvisible">
-																								<link itemprop="availability" href="https://schema.org/InStock" />W magazynie																					</span>
-																		
-									
-															</div>
-																			<a class="new-box" href="http://192.168.99.100/audiobooki/21-kreowanie-wizerunku-w-biznesie-i-polityce-cd-autor-grazyna-bialopiotrowicz.html">
+																									<a class="new-box" href="http://192.168.99.100/audiobooki/21-kreowanie-wizerunku-w-biznesie-i-polityce-cd-autor-grazyna-bialopiotrowicz.html">
 								<span class="new-label">Nowy</span>
 							</a>
-																			<a class="sale-box" href="http://192.168.99.100/audiobooki/21-kreowanie-wizerunku-w-biznesie-i-polityce-cd-autor-grazyna-bialopiotrowicz.html">
-								<span class="sale-label">Wyprzedaż!</span>
-							</a>
-											</div>
+																	</div>
 										
 				</div>
 				<div class="right-block">
@@ -73,29 +60,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 															<p class="product-desc" itemprop="description">
 						
 					</p>
-										<div class="content_price">
-													
-							<span class="price product-price">
-								0,00 zł							</span>
-														
-							
-							
-											</div>
 										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://192.168.99.100/koszyk?add=1&amp;id_product=21&amp;token=d8d76993a0f3c39bb62cc917f5a01ac7" rel="nofollow" title="Dodaj do koszyka" data-id-product-attribute="0" data-id-product="21" data-minimal_quantity="1">
-									<span>Dodaj do koszyka</span>
-								</a>
-																			<a class="button lnk_view btn btn-default" href="http://192.168.99.100/audiobooki/21-kreowanie-wizerunku-w-biznesie-i-polityce-cd-autor-grazyna-bialopiotrowicz.html" title="Zobacz">
+												<a class="button lnk_view btn btn-default" href="http://192.168.99.100/audiobooki/21-kreowanie-wizerunku-w-biznesie-i-polityce-cd-autor-grazyna-bialopiotrowicz.html" title="Zobacz">
 							<span>Więcej</span>
 						</a>
 					</div>
 										<div class="product-flags">
-																																					</div>
-																		<span class="availability">
-																	<span class=" label-success">
-										W magazynie									</span>
-															</span>
-															</div>
+																	</div>
+									</div>
 							</div><!-- .product-container> -->
 		</li>
 			
@@ -116,23 +88,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<a class="quick-view" href="http://192.168.99.100/audiobooki/22-pamietniki-tatusia-muminka-cd-autor-tove-jansson.html" rel="http://192.168.99.100/audiobooki/22-pamietniki-tatusia-muminka-cd-autor-tove-jansson.html">
 							<span>Szybki podgląd</span>
 						</a>
-																			<div class="content_price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-																	<span itemprop="price" class="price product-price">
-										
-										0,00 zł									</span>
-									<meta itemprop="priceCurrency" content="PLN" />
-																												<span class="unvisible">
-																								<link itemprop="availability" href="https://schema.org/InStock" />W magazynie																					</span>
-																		
-									
-															</div>
-																			<a class="new-box" href="http://192.168.99.100/audiobooki/22-pamietniki-tatusia-muminka-cd-autor-tove-jansson.html">
+																									<a class="new-box" href="http://192.168.99.100/audiobooki/22-pamietniki-tatusia-muminka-cd-autor-tove-jansson.html">
 								<span class="new-label">Nowy</span>
 							</a>
-																			<a class="sale-box" href="http://192.168.99.100/audiobooki/22-pamietniki-tatusia-muminka-cd-autor-tove-jansson.html">
-								<span class="sale-label">Wyprzedaż!</span>
-							</a>
-											</div>
+																	</div>
 										
 				</div>
 				<div class="right-block">
@@ -144,29 +103,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 															<p class="product-desc" itemprop="description">
 						
 					</p>
-										<div class="content_price">
-													
-							<span class="price product-price">
-								0,00 zł							</span>
-														
-							
-							
-											</div>
 										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://192.168.99.100/koszyk?add=1&amp;id_product=22&amp;token=d8d76993a0f3c39bb62cc917f5a01ac7" rel="nofollow" title="Dodaj do koszyka" data-id-product-attribute="0" data-id-product="22" data-minimal_quantity="1">
-									<span>Dodaj do koszyka</span>
-								</a>
-																			<a class="button lnk_view btn btn-default" href="http://192.168.99.100/audiobooki/22-pamietniki-tatusia-muminka-cd-autor-tove-jansson.html" title="Zobacz">
+												<a class="button lnk_view btn btn-default" href="http://192.168.99.100/audiobooki/22-pamietniki-tatusia-muminka-cd-autor-tove-jansson.html" title="Zobacz">
 							<span>Więcej</span>
 						</a>
 					</div>
 										<div class="product-flags">
-																																					</div>
-																		<span class="availability">
-																	<span class=" label-success">
-										W magazynie									</span>
-															</span>
-															</div>
+																	</div>
+									</div>
 							</div><!-- .product-container> -->
 		</li>
 			
@@ -187,23 +131,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<a class="quick-view" href="http://192.168.99.100/audiobooki/23-kocha-lubi-szanuje-czyli-jeszcze-o-uczuciach-cd-autor-grzegorz-kasdepke.html" rel="http://192.168.99.100/audiobooki/23-kocha-lubi-szanuje-czyli-jeszcze-o-uczuciach-cd-autor-grzegorz-kasdepke.html">
 							<span>Szybki podgląd</span>
 						</a>
-																			<div class="content_price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-																	<span itemprop="price" class="price product-price">
-										
-										0,00 zł									</span>
-									<meta itemprop="priceCurrency" content="PLN" />
-																												<span class="unvisible">
-																								<link itemprop="availability" href="https://schema.org/InStock" />W magazynie																					</span>
-																		
-									
-															</div>
-																			<a class="new-box" href="http://192.168.99.100/audiobooki/23-kocha-lubi-szanuje-czyli-jeszcze-o-uczuciach-cd-autor-grzegorz-kasdepke.html">
+																									<a class="new-box" href="http://192.168.99.100/audiobooki/23-kocha-lubi-szanuje-czyli-jeszcze-o-uczuciach-cd-autor-grzegorz-kasdepke.html">
 								<span class="new-label">Nowy</span>
 							</a>
-																			<a class="sale-box" href="http://192.168.99.100/audiobooki/23-kocha-lubi-szanuje-czyli-jeszcze-o-uczuciach-cd-autor-grzegorz-kasdepke.html">
-								<span class="sale-label">Wyprzedaż!</span>
-							</a>
-											</div>
+																	</div>
 										
 				</div>
 				<div class="right-block">
@@ -215,29 +146,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 															<p class="product-desc" itemprop="description">
 						
 					</p>
-										<div class="content_price">
-													
-							<span class="price product-price">
-								0,00 zł							</span>
-														
-							
-							
-											</div>
 										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://192.168.99.100/koszyk?add=1&amp;id_product=23&amp;token=d8d76993a0f3c39bb62cc917f5a01ac7" rel="nofollow" title="Dodaj do koszyka" data-id-product-attribute="0" data-id-product="23" data-minimal_quantity="1">
-									<span>Dodaj do koszyka</span>
-								</a>
-																			<a class="button lnk_view btn btn-default" href="http://192.168.99.100/audiobooki/23-kocha-lubi-szanuje-czyli-jeszcze-o-uczuciach-cd-autor-grzegorz-kasdepke.html" title="Zobacz">
+												<a class="button lnk_view btn btn-default" href="http://192.168.99.100/audiobooki/23-kocha-lubi-szanuje-czyli-jeszcze-o-uczuciach-cd-autor-grzegorz-kasdepke.html" title="Zobacz">
 							<span>Więcej</span>
 						</a>
 					</div>
 										<div class="product-flags">
-																																					</div>
-																		<span class="availability">
-																	<span class=" label-success">
-										W magazynie									</span>
-															</span>
-															</div>
+																	</div>
+									</div>
 							</div><!-- .product-container> -->
 		</li>
 			
@@ -258,23 +174,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<a class="quick-view" href="http://192.168.99.100/audiobooki/24-kafka-nad-morzem-cd-autor-haruki-murakami.html" rel="http://192.168.99.100/audiobooki/24-kafka-nad-morzem-cd-autor-haruki-murakami.html">
 							<span>Szybki podgląd</span>
 						</a>
-																			<div class="content_price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-																	<span itemprop="price" class="price product-price">
-										
-										0,00 zł									</span>
-									<meta itemprop="priceCurrency" content="PLN" />
-																												<span class="unvisible">
-																								<link itemprop="availability" href="https://schema.org/InStock" />W magazynie																					</span>
-																		
-									
-															</div>
-																			<a class="new-box" href="http://192.168.99.100/audiobooki/24-kafka-nad-morzem-cd-autor-haruki-murakami.html">
+																									<a class="new-box" href="http://192.168.99.100/audiobooki/24-kafka-nad-morzem-cd-autor-haruki-murakami.html">
 								<span class="new-label">Nowy</span>
 							</a>
-																			<a class="sale-box" href="http://192.168.99.100/audiobooki/24-kafka-nad-morzem-cd-autor-haruki-murakami.html">
-								<span class="sale-label">Wyprzedaż!</span>
-							</a>
-											</div>
+																	</div>
 										
 				</div>
 				<div class="right-block">
@@ -286,29 +189,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 															<p class="product-desc" itemprop="description">
 						
 					</p>
-										<div class="content_price">
-													
-							<span class="price product-price">
-								0,00 zł							</span>
-														
-							
-							
-											</div>
 										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://192.168.99.100/koszyk?add=1&amp;id_product=24&amp;token=d8d76993a0f3c39bb62cc917f5a01ac7" rel="nofollow" title="Dodaj do koszyka" data-id-product-attribute="0" data-id-product="24" data-minimal_quantity="1">
-									<span>Dodaj do koszyka</span>
-								</a>
-																			<a class="button lnk_view btn btn-default" href="http://192.168.99.100/audiobooki/24-kafka-nad-morzem-cd-autor-haruki-murakami.html" title="Zobacz">
+												<a class="button lnk_view btn btn-default" href="http://192.168.99.100/audiobooki/24-kafka-nad-morzem-cd-autor-haruki-murakami.html" title="Zobacz">
 							<span>Więcej</span>
 						</a>
 					</div>
 										<div class="product-flags">
-																																					</div>
-																		<span class="availability">
-																	<span class=" label-success">
-										W magazynie									</span>
-															</span>
-															</div>
+																	</div>
+									</div>
 							</div><!-- .product-container> -->
 		</li>
 			
@@ -329,23 +217,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<a class="quick-view" href="http://192.168.99.100/audiobooki/25-mariamne-cd-autor-par-lagerkvist.html" rel="http://192.168.99.100/audiobooki/25-mariamne-cd-autor-par-lagerkvist.html">
 							<span>Szybki podgląd</span>
 						</a>
-																			<div class="content_price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-																	<span itemprop="price" class="price product-price">
-										
-										0,00 zł									</span>
-									<meta itemprop="priceCurrency" content="PLN" />
-																												<span class="unvisible">
-																								<link itemprop="availability" href="https://schema.org/InStock" />W magazynie																					</span>
-																		
-									
-															</div>
-																			<a class="new-box" href="http://192.168.99.100/audiobooki/25-mariamne-cd-autor-par-lagerkvist.html">
+																									<a class="new-box" href="http://192.168.99.100/audiobooki/25-mariamne-cd-autor-par-lagerkvist.html">
 								<span class="new-label">Nowy</span>
 							</a>
-																			<a class="sale-box" href="http://192.168.99.100/audiobooki/25-mariamne-cd-autor-par-lagerkvist.html">
-								<span class="sale-label">Wyprzedaż!</span>
-							</a>
-											</div>
+																	</div>
 										
 				</div>
 				<div class="right-block">
@@ -357,29 +232,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 															<p class="product-desc" itemprop="description">
 						
 					</p>
-										<div class="content_price">
-													
-							<span class="price product-price">
-								0,00 zł							</span>
-														
-							
-							
-											</div>
 										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://192.168.99.100/koszyk?add=1&amp;id_product=25&amp;token=d8d76993a0f3c39bb62cc917f5a01ac7" rel="nofollow" title="Dodaj do koszyka" data-id-product-attribute="0" data-id-product="25" data-minimal_quantity="1">
-									<span>Dodaj do koszyka</span>
-								</a>
-																			<a class="button lnk_view btn btn-default" href="http://192.168.99.100/audiobooki/25-mariamne-cd-autor-par-lagerkvist.html" title="Zobacz">
+												<a class="button lnk_view btn btn-default" href="http://192.168.99.100/audiobooki/25-mariamne-cd-autor-par-lagerkvist.html" title="Zobacz">
 							<span>Więcej</span>
 						</a>
 					</div>
 										<div class="product-flags">
-																																					</div>
-																		<span class="availability">
-																	<span class=" label-success">
-										W magazynie									</span>
-															</span>
-															</div>
+																	</div>
+									</div>
 							</div><!-- .product-container> -->
 		</li>
 			
@@ -400,23 +260,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<a class="quick-view" href="http://192.168.99.100/audiobooki/26-myszy-i-ludzie-cd-autor-john-steinbeck.html" rel="http://192.168.99.100/audiobooki/26-myszy-i-ludzie-cd-autor-john-steinbeck.html">
 							<span>Szybki podgląd</span>
 						</a>
-																			<div class="content_price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-																	<span itemprop="price" class="price product-price">
-										
-										0,00 zł									</span>
-									<meta itemprop="priceCurrency" content="PLN" />
-																												<span class="unvisible">
-																								<link itemprop="availability" href="https://schema.org/InStock" />W magazynie																					</span>
-																		
-									
-															</div>
-																			<a class="new-box" href="http://192.168.99.100/audiobooki/26-myszy-i-ludzie-cd-autor-john-steinbeck.html">
+																									<a class="new-box" href="http://192.168.99.100/audiobooki/26-myszy-i-ludzie-cd-autor-john-steinbeck.html">
 								<span class="new-label">Nowy</span>
 							</a>
-																			<a class="sale-box" href="http://192.168.99.100/audiobooki/26-myszy-i-ludzie-cd-autor-john-steinbeck.html">
-								<span class="sale-label">Wyprzedaż!</span>
-							</a>
-											</div>
+																	</div>
 										
 				</div>
 				<div class="right-block">
@@ -428,29 +275,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 															<p class="product-desc" itemprop="description">
 						
 					</p>
-										<div class="content_price">
-													
-							<span class="price product-price">
-								0,00 zł							</span>
-														
-							
-							
-											</div>
 										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://192.168.99.100/koszyk?add=1&amp;id_product=26&amp;token=d8d76993a0f3c39bb62cc917f5a01ac7" rel="nofollow" title="Dodaj do koszyka" data-id-product-attribute="0" data-id-product="26" data-minimal_quantity="1">
-									<span>Dodaj do koszyka</span>
-								</a>
-																			<a class="button lnk_view btn btn-default" href="http://192.168.99.100/audiobooki/26-myszy-i-ludzie-cd-autor-john-steinbeck.html" title="Zobacz">
+												<a class="button lnk_view btn btn-default" href="http://192.168.99.100/audiobooki/26-myszy-i-ludzie-cd-autor-john-steinbeck.html" title="Zobacz">
 							<span>Więcej</span>
 						</a>
 					</div>
 										<div class="product-flags">
-																																					</div>
-																		<span class="availability">
-																	<span class=" label-success">
-										W magazynie									</span>
-															</span>
-															</div>
+																	</div>
+									</div>
 							</div><!-- .product-container> -->
 		</li>
 			
@@ -471,23 +303,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<a class="quick-view" href="http://192.168.99.100/audiobooki/27-cienka-czerwona-linia-2dvd-mp3-autor-jones-james.html" rel="http://192.168.99.100/audiobooki/27-cienka-czerwona-linia-2dvd-mp3-autor-jones-james.html">
 							<span>Szybki podgląd</span>
 						</a>
-																			<div class="content_price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-																	<span itemprop="price" class="price product-price">
-										
-										0,00 zł									</span>
-									<meta itemprop="priceCurrency" content="PLN" />
-																												<span class="unvisible">
-																								<link itemprop="availability" href="https://schema.org/InStock" />W magazynie																					</span>
-																		
-									
-															</div>
-																			<a class="new-box" href="http://192.168.99.100/audiobooki/27-cienka-czerwona-linia-2dvd-mp3-autor-jones-james.html">
+																									<a class="new-box" href="http://192.168.99.100/audiobooki/27-cienka-czerwona-linia-2dvd-mp3-autor-jones-james.html">
 								<span class="new-label">Nowy</span>
 							</a>
-																			<a class="sale-box" href="http://192.168.99.100/audiobooki/27-cienka-czerwona-linia-2dvd-mp3-autor-jones-james.html">
-								<span class="sale-label">Wyprzedaż!</span>
-							</a>
-											</div>
+																	</div>
 										
 				</div>
 				<div class="right-block">
@@ -499,29 +318,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 															<p class="product-desc" itemprop="description">
 						
 					</p>
-										<div class="content_price">
-													
-							<span class="price product-price">
-								0,00 zł							</span>
-														
-							
-							
-											</div>
 										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://192.168.99.100/koszyk?add=1&amp;id_product=27&amp;token=d8d76993a0f3c39bb62cc917f5a01ac7" rel="nofollow" title="Dodaj do koszyka" data-id-product-attribute="0" data-id-product="27" data-minimal_quantity="1">
-									<span>Dodaj do koszyka</span>
-								</a>
-																			<a class="button lnk_view btn btn-default" href="http://192.168.99.100/audiobooki/27-cienka-czerwona-linia-2dvd-mp3-autor-jones-james.html" title="Zobacz">
+												<a class="button lnk_view btn btn-default" href="http://192.168.99.100/audiobooki/27-cienka-czerwona-linia-2dvd-mp3-autor-jones-james.html" title="Zobacz">
 							<span>Więcej</span>
 						</a>
 					</div>
 										<div class="product-flags">
-																																					</div>
-																		<span class="availability">
-																	<span class=" label-success">
-										W magazynie									</span>
-															</span>
-															</div>
+																	</div>
+									</div>
 							</div><!-- .product-container> -->
 		</li>
 			
@@ -542,23 +346,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<a class="quick-view" href="http://192.168.99.100/audiobooki/28-bajki-pana-balagana-cd-mp3-autor-jerzy-niemczuk.html" rel="http://192.168.99.100/audiobooki/28-bajki-pana-balagana-cd-mp3-autor-jerzy-niemczuk.html">
 							<span>Szybki podgląd</span>
 						</a>
-																			<div class="content_price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-																	<span itemprop="price" class="price product-price">
-										
-										0,00 zł									</span>
-									<meta itemprop="priceCurrency" content="PLN" />
-																												<span class="unvisible">
-																								<link itemprop="availability" href="https://schema.org/InStock" />W magazynie																					</span>
-																		
-									
-															</div>
-																			<a class="new-box" href="http://192.168.99.100/audiobooki/28-bajki-pana-balagana-cd-mp3-autor-jerzy-niemczuk.html">
+																									<a class="new-box" href="http://192.168.99.100/audiobooki/28-bajki-pana-balagana-cd-mp3-autor-jerzy-niemczuk.html">
 								<span class="new-label">Nowy</span>
 							</a>
-																			<a class="sale-box" href="http://192.168.99.100/audiobooki/28-bajki-pana-balagana-cd-mp3-autor-jerzy-niemczuk.html">
-								<span class="sale-label">Wyprzedaż!</span>
-							</a>
-											</div>
+																	</div>
 										
 				</div>
 				<div class="right-block">
@@ -570,29 +361,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 															<p class="product-desc" itemprop="description">
 						
 					</p>
-										<div class="content_price">
-													
-							<span class="price product-price">
-								0,00 zł							</span>
-														
-							
-							
-											</div>
 										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://192.168.99.100/koszyk?add=1&amp;id_product=28&amp;token=d8d76993a0f3c39bb62cc917f5a01ac7" rel="nofollow" title="Dodaj do koszyka" data-id-product-attribute="0" data-id-product="28" data-minimal_quantity="1">
-									<span>Dodaj do koszyka</span>
-								</a>
-																			<a class="button lnk_view btn btn-default" href="http://192.168.99.100/audiobooki/28-bajki-pana-balagana-cd-mp3-autor-jerzy-niemczuk.html" title="Zobacz">
+												<a class="button lnk_view btn btn-default" href="http://192.168.99.100/audiobooki/28-bajki-pana-balagana-cd-mp3-autor-jerzy-niemczuk.html" title="Zobacz">
 							<span>Więcej</span>
 						</a>
 					</div>
 										<div class="product-flags">
-																																					</div>
-																		<span class="availability">
-																	<span class=" label-success">
-										W magazynie									</span>
-															</span>
-															</div>
+																	</div>
+									</div>
 							</div><!-- .product-container> -->
 		</li>
 		</ul>

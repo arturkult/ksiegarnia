@@ -8,28 +8,36 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 1509993002,
       2 => 'file',
     ),
+    '5c53737510b61f5e57aa4fb383106c38f28d329a' => 
+    array (
+      0 => '/var/www/html/themes/default-bootstrap/modules/blockcategories/category-tree-branch.tpl',
+      1 => 1509993002,
+      2 => 'file',
+    ),
   ),
   'nocache_hash' => '20825093715a00c025d100c4-30671602',
-  'variables' => 
-  array (
-    'isDhtml' => 0,
-    'blockCategTree' => 0,
-    'child' => 0,
-    'numberColumn' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a00c025d2b3c9_59847974',
+  'unifunc' => 'content_5a00d1044d5621_26447939',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a00c025d2b3c9_59847974')) {function content_5a00c025d2b3c9_59847974($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a00d1044d5621_26447939')) {function content_5a00d1044d5621_26447939($_smarty_tpl) {?>
 <!-- Block categories module -->
 <section class="blockcategories_footer footer-block col-xs-12 col-sm-2">
 	<h4>Kategorie</h4>
 	<div class="category_footer toggle-footer">
 		<div class="list">
 			<ul class="dhtml">
-						</ul>
+												
+<li class="last">
+	<a 
+	href="http://192.168.99.100/12-audiobooki" title="">
+		audiobooki
+	</a>
+	</li>
+
+							
+										</ul>
 		</div>
 	</div> <!-- .category_footer -->
 </section>

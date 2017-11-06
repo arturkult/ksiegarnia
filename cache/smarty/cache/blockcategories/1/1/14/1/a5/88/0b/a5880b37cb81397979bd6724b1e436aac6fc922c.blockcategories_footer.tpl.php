@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:3298582235a00b7b5140168-11188675%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:20825093715a00c025d100c4-30671602%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -8,14 +8,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 1509993002,
       2 => 'file',
     ),
-    '5c53737510b61f5e57aa4fb383106c38f28d329a' => 
-    array (
-      0 => '/var/www/html/themes/default-bootstrap/modules/blockcategories/category-tree-branch.tpl',
-      1 => 1509993002,
-      2 => 'file',
-    ),
   ),
-  'nocache_hash' => '3298582235a00b7b5140168-11188675',
+  'nocache_hash' => '20825093715a00c025d100c4-30671602',
   'variables' => 
   array (
     'isDhtml' => 0,
@@ -25,94 +19,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a00b7b51a9754_27000021',
+  'unifunc' => 'content_5a00c025d2b3c9_59847974',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a00b7b51a9754_27000021')) {function content_5a00b7b51a9754_27000021($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a00c025d2b3c9_59847974')) {function content_5a00c025d2b3c9_59847974($_smarty_tpl) {?>
 <!-- Block categories module -->
 <section class="blockcategories_footer footer-block col-xs-12 col-sm-2">
 	<h4>Kategorie</h4>
 	<div class="category_footer toggle-footer">
 		<div class="list">
 			<ul class="dhtml">
-												
-<li class="last">
-	<a 
-	href="http://192.168.99.100/3-women" title="You will find here all woman fashion collections.  
- This category includes all the basics of your wardrobe and much more: 
- shoes, accessories, printed t-shirts, feminine dresses, women&#039;s jeans!">
-		Women
-	</a>
-			<ul>
-												
-<li >
-	<a 
-	href="http://192.168.99.100/4-tops" title="Choose from t-shirts, tops, blouses, short sleeves, long sleeves, tank tops, 3/4 sleeves and more. 
- Find the cut that suits you the best!">
-		Tops
-	</a>
-			<ul>
-												
-<li >
-	<a 
-	href="http://192.168.99.100/5-tshirts" title="The must have of your wardrobe, take a look at our different colors, 
- shapes and style of our collection!">
-		T-shirts
-	</a>
-	</li>
-
-																
-<li class="last">
-	<a 
-	href="http://192.168.99.100/7-blouses" title="Match your favorites blouses with the right accessories for the perfect look.">
-		Blouses
-	</a>
-	</li>
-
-									</ul>
-	</li>
-
-																
-<li class="last">
-	<a 
-	href="http://192.168.99.100/8-dresses" title="Find your favorites dresses from our wide choice of evening, casual or summer dresses! 
- We offer dresses for every day, every style and every occasion.">
-		Dresses
-	</a>
-			<ul>
-												
-<li >
-	<a 
-	href="http://192.168.99.100/9-casual-dresses" title="You are looking for a dress for every day? Take a look at 
- our selection of dresses to find one that suits you.">
-		Casual Dresses
-	</a>
-	</li>
-
-																
-<li >
-	<a 
-	href="http://192.168.99.100/10-evening-dresses" title="Browse our different dresses to choose the perfect dress for an unforgettable evening!">
-		Evening Dresses
-	</a>
-	</li>
-
-																
-<li class="last">
-	<a 
-	href="http://192.168.99.100/11-summer-dresses" title="Short dress, long dress, silk dress, printed dress, you will find the perfect dress for summer.">
-		Summer Dresses
-	</a>
-	</li>
-
-									</ul>
-	</li>
-
-									</ul>
-	</li>
-
-							
-										</ul>
+						</ul>
 		</div>
 	</div> <!-- .category_footer -->
 </section>

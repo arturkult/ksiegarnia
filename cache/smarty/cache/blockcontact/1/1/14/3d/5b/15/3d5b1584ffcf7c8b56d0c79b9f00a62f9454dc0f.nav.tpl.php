@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:14490515115a00b7b64f3425-50230675%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:11583779625a00c026aedd69-49971212%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '14490515115a00b7b64f3425-50230675',
+  'nocache_hash' => '11583779625a00c026aedd69-49971212',
   'variables' => 
   array (
     'is_logged' => 0,
@@ -18,10 +18,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a00b7b6515937_59118852',
+  'unifunc' => 'content_5a00c026b090b6_69725036',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a00b7b6515937_59118852')) {function content_5a00b7b6515937_59118852($_smarty_tpl) {?><div id="contact-link" >
+<?php if ($_valid && !is_callable('content_5a00c026b090b6_69725036')) {function content_5a00c026b090b6_69725036($_smarty_tpl) {?><div id="contact-link" >
 	<a href="http://192.168.99.100/kontakt" title="Kontakt z nami">Kontakt z nami</a>
 </div>
 	<span class="shop-phone">

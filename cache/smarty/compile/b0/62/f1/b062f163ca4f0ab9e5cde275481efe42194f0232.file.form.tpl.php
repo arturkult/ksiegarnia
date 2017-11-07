@@ -1,29 +1,29 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-07 11:56:57
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-07 13:52:43
          compiled from "/var/www/html/admin123qwe/themes/default/template/controllers/attributes_groups/helpers/form/form.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:15348647975a0191792debd3-96819587%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:9466816695a01ac9b3b9a00-79531950%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'b062f163ca4f0ab9e5cde275481efe42194f0232' => 
     array (
       0 => '/var/www/html/admin123qwe/themes/default/template/controllers/attributes_groups/helpers/form/form.tpl',
-      1 => 1510018000,
+      1 => 1510054696,
       2 => 'file',
     ),
     '61a0598984aa9e0fbc33ea0207d27a1f0bfc0e6d' => 
     array (
       0 => '/var/www/html/admin123qwe/themes/default/template/helpers/form/form.tpl',
-      1 => 1510018000,
+      1 => 1510054696,
       2 => 'file',
     ),
     '17a9bbc221cc04dc28205ef24e56be1cafef6786' => 
     array (
       0 => '/var/www/html/admin123qwe/themes/default/template/helpers/form/form_group.tpl',
-      1 => 1510018000,
+      1 => 1510054696,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '15348647975a0191792debd3-96819587',
+  'nocache_hash' => '9466816695a01ac9b3b9a00-79531950',
   'function' => 
   array (
   ),
@@ -79,9 +79,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a01917bc96891_73910618',
+  'unifunc' => 'content_5a01ac9be4bb71_03787694',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a01917bc96891_73910618')) {function content_5a01917bc96891_73910618($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/var/www/html/tools/smarty/plugins/function.counter.php';
+<?php if ($_valid && !is_callable('content_5a01ac9be4bb71_03787694')) {function content_5a01ac9be4bb71_03787694($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/var/www/html/tools/smarty/plugins/function.counter.php';
 ?>
 <?php if (isset($_smarty_tpl->tpl_vars['fields']->value['title'])) {?><h3><?php echo $_smarty_tpl->tpl_vars['fields']->value['title'];?>
 </h3><?php }?>
@@ -1168,8 +1168,8 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 									<?php $_smarty_tpl->tpl_vars['groups'] = new Smarty_variable($_smarty_tpl->tpl_vars['input']->value['values'], null, 0);?>
 									<?php /*  Call merged included template "helpers/form/form_group.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('helpers/form/form_group.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '15348647975a0191792debd3-96819587');
-content_5a01917b6e72b8_59989817($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('helpers/form/form_group.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '9466816695a01ac9b3b9a00-79531950');
+content_5a01ac9bbedd98_48269631($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "helpers/form/form_group.tpl" */?>
 								<?php } elseif ($_smarty_tpl->tpl_vars['input']->value['type']=='shop') {?>
@@ -1551,9 +1551,9 @@ $_smarty_tpl->tpl_vars['language']->_loop = true;
 	</script>
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-07 11:56:59
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-07 13:52:43
          compiled from "/var/www/html/admin123qwe/themes/default/template/helpers/form/form_group.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a01917b6e72b8_59989817')) {function content_5a01917b6e72b8_59989817($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a01ac9bbedd98_48269631')) {function content_5a01ac9bbedd98_48269631($_smarty_tpl) {?>
 
 <?php if (count($_smarty_tpl->tpl_vars['groups']->value)&&isset($_smarty_tpl->tpl_vars['groups']->value)) {?>
 <div class="row">

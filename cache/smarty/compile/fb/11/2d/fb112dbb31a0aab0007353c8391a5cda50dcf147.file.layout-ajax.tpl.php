@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-07 11:58:46
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-07 14:15:23
          compiled from "/var/www/html/admin123qwe/themes/default/template/layout-ajax.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:12300318305a0191e6271443-22956552%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:14098964205a01b1ebe00eb3-72424074%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'fb112dbb31a0aab0007353c8391a5cda50dcf147' => 
     array (
       0 => '/var/www/html/admin123qwe/themes/default/template/layout-ajax.tpl',
-      1 => 1510018000,
+      1 => 1510054696,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '12300318305a0191e6271443-22956552',
+  'nocache_hash' => '14098964205a01b1ebe00eb3-72424074',
   'function' => 
   array (
   ),
@@ -33,9 +33,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a0191e6491874_65167628',
+  'unifunc' => 'content_5a01b1ec366838_37438171',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a0191e6491874_65167628')) {function content_5a0191e6491874_65167628($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a01b1ec366838_37438171')) {function content_5a01b1ec366838_37438171($_smarty_tpl) {?>
 <?php if (isset($_smarty_tpl->tpl_vars['json']->value)) {?>
 {<?php if (isset($_smarty_tpl->tpl_vars['status']->value)&&is_string($_smarty_tpl->tpl_vars['status']->value)&&trim($_smarty_tpl->tpl_vars['status']->value)!='') {?><?php $_smarty_tpl->tpl_vars['hasresult'] = new Smarty_variable('ok', null, 0);?>"status" : "<?php echo $_smarty_tpl->tpl_vars['status']->value;?>
 "<?php }?><?php if (isset($_smarty_tpl->tpl_vars['confirmations']->value)&&count($_smarty_tpl->tpl_vars['confirmations']->value)>0) {?><?php if ($_smarty_tpl->tpl_vars['hasresult']->value=='ok') {?>,<?php }?><?php $_smarty_tpl->tpl_vars['hasresult'] = new Smarty_variable('ok', null, 0);?>"confirmations" : <?php echo $_smarty_tpl->tpl_vars['confirmations']->value;?>

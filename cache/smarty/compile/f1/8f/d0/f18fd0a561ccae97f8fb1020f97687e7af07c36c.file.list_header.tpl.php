@@ -1,23 +1,23 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-07 12:00:18
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-07 14:15:25
          compiled from "/var/www/html/admin123qwe/themes/default/template/controllers/products/combination/helpers/list/list_header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:17341935855a019242d85ec2-37607340%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3004453195a01b1ed897cf3-89702625%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'f18fd0a561ccae97f8fb1020f97687e7af07c36c' => 
     array (
       0 => '/var/www/html/admin123qwe/themes/default/template/controllers/products/combination/helpers/list/list_header.tpl',
-      1 => 1510018000,
+      1 => 1510054696,
       2 => 'file',
     ),
     '7f017582940e25b9a7f076936d9ff18398eb10d6' => 
     array (
       0 => '/var/www/html/admin123qwe/themes/default/template/helpers/list/list_header.tpl',
-      1 => 1510018000,
+      1 => 1510054696,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '17341935855a019242d85ec2-37607340',
+  'nocache_hash' => '3004453195a01b1ed897cf3-89702625',
   'function' => 
   array (
   ),
@@ -69,9 +69,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a019246683d12_08310937',
+  'unifunc' => 'content_5a01b1ef6875c0_68158197',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a019246683d12_08310937')) {function content_5a019246683d12_08310937($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include '/var/www/html/tools/smarty/plugins/function.math.php';
+<?php if ($_valid && !is_callable('content_5a01b1ef6875c0_68158197')) {function content_5a01b1ef6875c0_68158197($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include '/var/www/html/tools/smarty/plugins/function.math.php';
 ?>
 <?php if ($_smarty_tpl->tpl_vars['ajax']->value) {?>
 	<script type="text/javascript">

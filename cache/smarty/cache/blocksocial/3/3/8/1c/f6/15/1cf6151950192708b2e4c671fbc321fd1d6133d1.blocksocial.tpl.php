@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '8106377015a016ae5ca1dc7-08845960',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a017c56e04f15_60001107',
+  'unifunc' => 'content_5a01918f7d5e71_63693378',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a017c56e04f15_60001107')) {function content_5a017c56e04f15_60001107($_smarty_tpl) {?><section id="social_block" class="pull-right">
+<?php if ($_valid && !is_callable('content_5a01918f7d5e71_63693378')) {function content_5a01918f7d5e71_63693378($_smarty_tpl) {?><section id="social_block" class="pull-right">
 	<ul>
 					<li class="facebook">
 				<a class="_blank" href="http://www.facebook.com/prestashop">

@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '7039504335a016ae82d38d8-25728432',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a017c60a607f0_06351825',
+  'unifunc' => 'content_5a019190e04228_56154771',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a017c60a607f0_06351825')) {function content_5a017c60a607f0_06351825($_smarty_tpl) {?><div id="contact-link"  class="is_logged">
+<?php if ($_valid && !is_callable('content_5a019190e04228_56154771')) {function content_5a019190e04228_56154771($_smarty_tpl) {?><div id="contact-link"  class="is_logged">
 	<a href="http://192.168.99.100/kontakt" title="Kontakt z nami">Kontakt z nami</a>
 </div>
 	<span class="shop-phone is_logged">

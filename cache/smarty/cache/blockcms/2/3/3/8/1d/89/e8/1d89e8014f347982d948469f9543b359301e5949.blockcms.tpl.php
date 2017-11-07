@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '20920843785a016ae66beb48-20018362',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a017c5a60d6f7_58316561',
+  'unifunc' => 'content_5a01918feffe41_81398509',
   'has_nocache_code' => true,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a017c5a60d6f7_58316561')) {function content_5a017c5a60d6f7_58316561($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a01918feffe41_81398509')) {function content_5a01918feffe41_81398509($_smarty_tpl) {?>
 	<!-- Block CMS module footer -->
 	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 		<h4>Informacja</h4>

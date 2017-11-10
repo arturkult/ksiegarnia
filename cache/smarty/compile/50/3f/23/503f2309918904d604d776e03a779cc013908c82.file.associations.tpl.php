@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-07 14:15:26
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-07 18:22:57
          compiled from "/var/www/html/admin123qwe/themes/default/template/controllers/products/associations.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:16721400825a01b1eea52474-77041918%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1667534365a01ebf1642934-52969773%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '16721400825a01b1eea52474-77041918',
+  'nocache_hash' => '1667534365a01ebf1642934-52969773',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a01b1eee5a4d4_16240931',
+  'unifunc' => 'content_5a01ebf179e359_31972140',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a01b1eee5a4d4_16240931')) {function content_5a01b1eee5a4d4_16240931($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a01ebf179e359_31972140')) {function content_5a01ebf179e359_31972140($_smarty_tpl) {?>
 <div id="product-associations" class="panel product-tab">
 	<input type="hidden" name="submitted_tabs[]" value="Associations" />
 	<h3><?php echo smartyTranslate(array('s'=>'Associations'),$_smarty_tpl);?>

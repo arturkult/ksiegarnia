@@ -1,0 +1,15 @@
+/admin-dev/autoupgrade/
+/cache/
+/config/xml/*.xml
+/log/
+*sitemap.xml
+/themes/*/cache/
+/modules/*/config*.xml
+
+
+admin-dev/backups/
+admin-dev/export/
+admin-dev/import/
+download/
+img/
+upload/

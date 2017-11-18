@@ -1,5 +1,5 @@
 <?php
-define('_DB_SERVER_', '192.168.99.100');
+define('_DB_SERVER_', 'mysql:3306');
 define('_DB_NAME_', 'prestashop');
 define('_DB_USER_', 'root');
 define('_DB_PASSWD_', '');

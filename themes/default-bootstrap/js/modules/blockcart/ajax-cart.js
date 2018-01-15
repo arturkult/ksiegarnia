@@ -130,19 +130,28 @@ var ajaxCart = {
 		//for every 'add' buttons...
 		$(document).off('click', '.ajax_add_to_cart_button').on('click', '.ajax_add_to_cart_button', function(e){
 			e.preventDefault();
+			var name  = $(this).parent().parent().parent().parent().children(".center-block").children("[itemprop='name']").children("a").attr("title");
+			var promo = $(this).parent().parent().children(".content_price").children(".price-percent-reduction").text().length;
+			var category = $(this).parent().children(".lnk_view").attr("href").split("/")[3];
+			var price = $(this).parent().parent().children(".content_price").children("[itemprop='price']").text().replace(',','.').split(" ")[1];
 			var idProduct =  parseInt($(this).data('id-product'));
 			var idProductAttribute =  parseInt($(this).data('id-product-attribute'));
 			var minimalQuantity =  parseInt($(this).data('minimal_quantity'));
+			var isOnline = $(".ajax_add_to_cart_button").parent().parent().parent().prev().children().children(".online_only").length;
 			if (!minimalQuantity)
 				minimalQuantity = 1;
 			if ($(this).prop('disabled') != 'disabled')
-				ajaxCart.add(idProduct, idProductAttribute, false, this, minimalQuantity);
+				ajaxCart.add(idProduct, idProductAttribute, false, this, minimalQuantity,null,name,category,price,promo);
 		});
 		//for product page 'add' button...
 		if ($('.cart_block').length) {
 			$(document).off('click', '#add_to_cart button').on('click', '#add_to_cart button', function(e){
 				e.preventDefault();
-				ajaxCart.add($('#product_page_product_id').val(), $('#idCombination').val(), true, null, $('#quantity_wanted').val(), null);
+				var price = $("#our_price_display").text().replace(',','.');
+				var category = window.location.href.split("/")[3];
+				var name =  $("[itemprop='name']").text();
+				var promo = $("#reduction_percent_display").text().length;
+				ajaxCart.add($('#product_page_product_id').val(), $('#idCombination').val(), true, null, $('#quantity_wanted').val(), null,name,category,price,promo);
 			});
 		}
 
@@ -278,7 +287,7 @@ var ajaxCart = {
 	// close fancybox
 	updateFancyBox : function (){},
 	// add a product in the cart via ajax
-	add : function(idProduct, idCombination, addedFromProductPage, callerElement, quantity, whishlist){
+	add : function(idProduct, idCombination, addedFromProductPage, callerElement, quantity, whishlist, name, category, price,promo){
 
 		if (addedFromProductPage && !checkCustomizations())
 		{
@@ -328,6 +337,15 @@ var ajaxCart = {
 			data: 'controller=cart&add=1&ajax=true&qty=' + ((quantity && quantity != null) ? quantity : '1') + '&id_product=' + idProduct + '&token=' + static_token + ( (parseInt(idCombination) && idCombination != null) ? '&ipa=' + parseInt(idCombination): '' + '&id_customization=' + ((typeof customizationId !== 'undefined') ? customizationId : 0)),
 			success: function(jsonData,textStatus,jqXHR)
 			{
+/*
+				if (isOnline==0) {
+					GoogleAnalyticEnhancedECommerce.addToCart({'id':idProduct,'name':name,'category':category,'price':price,'quantity':quantity,'promo':promo, 'dimension1':false});	
+				}
+				else {
+					GoogleAnalyticEnhancedECommerce.addToCart({'id':idProduct,'name':name,'category':category,'price':price,'quantity':quantity,'promo':promo, 'dimension1': true});		
+				}
+*/
+					GoogleAnalyticEnhancedECommerce.addToCart({'id':idProduct,'name':name,'category':category,'price':price,'quantity':quantity,'promo':promo});	
 				// add appliance to whishlist module
 				if (whishlist && !jsonData.errors)
 					WishlistAddProductCart(whishlist[0], idProduct, idCombination, whishlist[1]);
@@ -413,6 +431,7 @@ var ajaxCart = {
 			dataType : "json",
 			data: 'controller=cart&delete=1&id_product=' + idProduct + '&ipa=' + ((idCombination != null && parseInt(idCombination)) ? idCombination : '') + ((customizationId && customizationId != null) ? '&id_customization=' + customizationId : '') + '&id_address_delivery=' + idAddressDelivery + '&token=' + static_token + '&ajax=true',
 			success: function(jsonData)	{
+				GoogleAnalyticEnhancedECommerce.removeFromCart({'id':idProduct,'name':name,'category':category,'price':price,'quantity':quantity});		
 				ajaxCart.updateCart(jsonData);
 				if ($('body').attr('id') == 'order' || $('body').attr('id') == 'order-opc')
 					deleteProductFromSummary(idProduct+'_'+idCombination+'_'+customizationId+'_'+idAddressDelivery);

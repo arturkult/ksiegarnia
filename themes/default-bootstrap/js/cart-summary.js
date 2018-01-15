@@ -24,6 +24,7 @@
 */
 
 $(document).ready(function(){
+	console.log("cart-summary");
 	$('.cart_quantity_up').off('click').on('click', function(e){
 		e.preventDefault();
 		upQuantity($(this).attr('id').replace('cart_quantity_up_', ''));

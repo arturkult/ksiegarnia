@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-07 18:22:58
+<?php /* Smarty version Smarty-3.1.19, created on 2017-12-05 16:18:31
          compiled from "/var/www/html/admin123qwe/themes/default/template/controllers/products/images.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10770623415a01ebf2c23ce8-61909973%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:4965180345a26b8c7ae7a93-76192017%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '39ce9d84c297032dfda647c9ba22a249b6959a4e' => 
     array (
       0 => '/var/www/html/admin123qwe/themes/default/template/controllers/products/images.tpl',
-      1 => 1510054696,
+      1 => 1510692717,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10770623415a01ebf2c23ce8-61909973',
+  'nocache_hash' => '4965180345a26b8c7ae7a93-76192017',
   'function' => 
   array (
   ),
@@ -41,9 +41,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a01ebf3142848_13514603',
+  'unifunc' => 'content_5a26b8c812d2c2_64794774',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a01ebf3142848_13514603')) {function content_5a01ebf3142848_13514603($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a26b8c812d2c2_64794774')) {function content_5a26b8c812d2c2_64794774($_smarty_tpl) {?>
 
 <?php if (isset($_smarty_tpl->tpl_vars['id_product']->value)&&isset($_smarty_tpl->tpl_vars['product']->value)) {?>
 <div id="product-images" class="panel product-tab">

@@ -98,4 +98,6 @@
         {/if}
     </div>
 {/if}
-
+<script>
+console.log("Address-advanced");
+</script>

@@ -467,3 +467,6 @@
 <p class="alert alert-info"><i class="icon-info-sign"></i>{l s='You cannot return merchandise with a guest account'}</p>
 {/if}
 {/if}
+<script>
+console.log("order-detail");
+</script>

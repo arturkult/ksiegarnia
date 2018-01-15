@@ -81,12 +81,38 @@ var GoogleAnalyticEnhancedECommerce = {
 
 	addToCart: function(Product) {
 		this.add(Product);
+		console.log(Product);
+		ga('ec:addProduct',{
+		    'id': Product.id,
+		    'name': Product.name,
+		    'category': Product.category,
+		    'price': Product.price,
+		    'quantity': Product.qty,
+		});
+		ga('ec:addPromo', {
+			'id':'PROMO_01',
+			'name': 'Promocja 30%',
+			'creative': 'promo_banner',
+			'position': 'banner'
+		});
+		if(Product.promo!=0){
+			ga('ec:setAction', 'promo_click');
+			ga('send', 'event', 'Internal Promotions', 'click', 'Promocja 30%');
+		}
 		ga('ec:setAction', 'add');
 		ga('send', 'event', 'UX', 'click', 'Add to Cart'); // Send data using an event.
 	},
 
-	removeFromCart: function(Product) {
-		this.add(Product);
+	removeFromCart: function(product) {
+		this.add(product);
+		ga('ec:addProduct',{
+		    'id': product.id,
+		    'name': product.name,
+		    'category': product.category,
+		    'price': product.price,
+		    'quantity': product.qty
+		});
+		
 		ga('ec:setAction', 'remove');
 		ga('send', 'event', 'UX', 'click', 'Remove From cart'); // Send data using an event.
 	},

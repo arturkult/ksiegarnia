@@ -34,15 +34,22 @@ var ajaxCart = {
 	//override every button in the page in relation to the cart
 	overrideButtonsInThePage : function(){
 		//for every 'add' buttons...
-		$('.ajax_add_to_cart_button').unbind('click').click(function(){
+		$('.ajax_add_to_cart_button').unbind('click').click(function(e){
+			alert("mama");
 			var idProduct =  $(this).attr('rel').replace('nofollow', '').replace('ajax_id_product_', '');
 			if ($(this).attr('disabled') != 'disabled')
+			{
+				console.log("mama");
 				ajaxCart.add(idProduct, null, false, this);
+			
+			}
 			return false;
 		});
 		//for product page 'add' button...
 		$('#add_to_cart input').unbind('click').click(function(){
+			console.log("mama");
 			ajaxCart.add( $('#product_page_product_id').val(), $('#idCombination').val(), true, null, $('#quantity_wanted').val(), null);
+		
 			return false;
 		});
 
@@ -179,6 +186,8 @@ var ajaxCart = {
 
 	// add a product in the cart via ajax
 	add : function(idProduct, idCombination, addedFromProductPage, callerElement, quantity, wishlist){
+		alert("mama");
+		console.log("dodawaniedokoszyka");
 		if (addedFromProductPage && !checkCustomizations())
 		{
 			alert(fieldRequired);
@@ -207,6 +216,7 @@ var ajaxCart = {
 			data: 'controller=cart&add=1&ajax=true&qty=' + ((quantity && quantity != null) ? quantity : '1') + '&id_product=' + idProduct + '&token=' + static_token + ( (parseInt(idCombination) && idCombination != null) ? '&ipa=' + parseInt(idCombination): ''),
 			success: function(jsonData,textStatus,jqXHR)
 			{
+			console.log("dodano do koszyka");
 				// add appliance to wishlist module
 				if (wishlist && !jsonData.errors)
 					WishlistAddProductCart(wishlist[0], idProduct, idCombination, wishlist[1]);

@@ -24,8 +24,16 @@
 */
 //global variables
 var responsiveflag = false;
+var timeStart = (new Date()).getTime();
+
+$(window).unload(function(){
+	var time = (new Date()).getTime() - timeStart;
+	ga('send','timing','UserTiming','Przegladanie strony',time);
+	return "wyslano";
+});
 
 $(document).ready(function(){
+	
 	highdpiInit();
 	responsiveResize();
 	$(window).resize(responsiveResize);

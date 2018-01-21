@@ -1,0 +1,7 @@
+ID,Nazwa*,Kategorie,ID reduły pdoatku,w sprzedaży (0 lub 1),Ilosc,Jedonstka dla ceny za jednostkę,cena za jednostkę,"pokaż cenę(0=Nie,1=Tak)","Dostępne tylko onilne(0=Nie,1=Tak)","Dostępne do zamóiena (0=Nie,1=Tak)","Adresy URL zdjęcia(x,y,z...)","Wiretualny produkty (0=No, 1= Yes)",Cecha,Opis:
+670,Córki Wawelu. Opowieść o Jagiellońskich królewnach,24,1,1,10,zł,34.99,1,0,1,https://www.wydawnictwoliterackie.pl/resources/1/Brzezinska_CorkiWawelu_m.jpg,0,autor:Anna Brzezińska;okładka:twarda;liczba stron:840,książka historyczna
+671,Ania.,24,1,1,58,zł,25.99,1,0,1,http://livro.pl/media/catalog/product/cache/1/image/555x555/602f0fa2c1f0d1ba5e241f914e856ff9/1/5/15022826728346580.jpg_1.jpg,0,autor:Anna Przybylska,książka biograficzna
+672,Zakazany układ,26,1,1,45,zł,21.22,1,0,1,"https://www.gandalf.com.pl/o/zakazany-uklad,big,820944.jpg",0,autor:K.N.Haner,
+673,Życie,24,1,1,45,zł,37,1,0,1,http://livro.pl/media/catalog/product/cache/1/image/555x555/602f0fa2c1f0d1ba5e241f914e856ff9/1/5/15077046026919619.jpg.jpg,0,autor:Michael Jordan,biografia
+674,Narrenturm,5,1,1,45,zł,51.99,1,1,1,http://grafik.tworze.com/img/cd-sapkowski-narrenturm-01.jpg,1,autor: Andrzej Sapkowski,słuchowisko
+675,Metro 2033,5,1,1,45,zł,19.99,1,1,1,http://metro2033.pl/uploaded/galleryc/big_144610845200.jpg,1,autor:Dmitrij Głuchowski; lektor: Krzysztof Gosztyła,

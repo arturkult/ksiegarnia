@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-12-04 23:06:22
+<?php /* Smarty version Smarty-3.1.19, created on 2018-01-19 20:19:27
          compiled from "/var/www/html/themes/default-bootstrap/header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:17416879165a25c6dedc4663-17866600%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:19860149085a6244bf970df1-12220535%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'f01e5f2ef665b5a8740f3783b3ae23cec8dc9687' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/header.tpl',
-      1 => 1512214733,
+      1 => 1516207876,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '17416879165a25c6dedc4663-17866600',
+  'nocache_hash' => '19860149085a6244bf970df1-12220535',
   'function' => 
   array (
   ),
@@ -58,9 +58,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a25c6df07b6e6_40171427',
+  'unifunc' => 'content_5a6244bfb5f603_92445219',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a25c6df07b6e6_40171427')) {function content_5a25c6df07b6e6_40171427($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include '/var/www/html/tools/smarty/plugins/function.implode.php';
+<?php if ($_valid && !is_callable('content_5a6244bfb5f603_92445219')) {function content_5a6244bfb5f603_92445219($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include '/var/www/html/tools/smarty/plugins/function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"<?php if (isset($_smarty_tpl->tpl_vars['language_code']->value)&&$_smarty_tpl->tpl_vars['language_code']->value) {?> lang="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language_code']->value, ENT_QUOTES, 'UTF-8', true);?>
@@ -95,6 +95,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $_smarty_tpl->tpl_vars['favicon_url']->value;?>
 ?<?php echo $_smarty_tpl->tpl_vars['img_update_time']->value;?>
 " />
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+		<link href="http://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
 		<?php if (isset($_smarty_tpl->tpl_vars['css_files']->value)) {?>
 			<?php  $_smarty_tpl->tpl_vars['media'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['media']->_loop = false;
  $_smarty_tpl->tpl_vars['css_uri'] = new Smarty_Variable;

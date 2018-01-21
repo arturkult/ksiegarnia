@@ -6357,7 +6357,7 @@ table.table_block td {
   text-shadow: 1px 1px rgba(0, 0, 0, 0.24);
   width: 130px;
   text-align: center;
-  display: block;
+  display: none;
   position: absolute;
   right: -33px;
   top: 16px;

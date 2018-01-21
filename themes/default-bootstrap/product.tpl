@@ -238,6 +238,16 @@
 						</a>
 					</li>
 				</ul>
+				<div class="rating">
+	<form action="">
+		<label for='star1'>1</label><input id="star1" type="radio" name="star" value="1">
+		<label for='star2'>2</label><input id="star2" type="radio" name="star" value="2">
+		<label for='star3'>3</label><input id="star3" type="radio" name="star" value="3">
+		<label for='star4'>4</label><input id="star4" type="radio" name="star" value="4">
+		<label for='star5'>5</label><input id="star5" type="radio" name="star" value="5">
+		<input type="submit" name="123" value="Oceń">
+	</form>
+</div>
 			{/if}
 		</div>
 		<!-- end center infos-->

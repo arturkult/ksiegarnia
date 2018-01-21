@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-12-05 01:42:19
+<?php /* Smarty version Smarty-3.1.19, created on 2018-01-19 20:48:32
          compiled from "/var/www/html/themes/default-bootstrap/authentication.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:11135130665a25eb6bea02c7-71413748%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:16623464025a624b904b2419-50294338%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '7097ce746ec699dba628a513f341a7bc04b65237' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/authentication.tpl',
-      1 => 1510692722,
+      1 => 1516180728,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '11135130665a25eb6bea02c7-71413748',
+  'nocache_hash' => '16623464025a624b904b2419-50294338',
   'function' => 
   array (
   ),
@@ -60,9 +60,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a25eb6c8c3db1_90843331',
+  'unifunc' => 'content_5a624b90e1a518_84844666',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a25eb6c8c3db1_90843331')) {function content_5a25eb6c8c3db1_90843331($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a624b90e1a518_84844666')) {function content_5a624b90e1a518_84844666($_smarty_tpl) {?>
 <?php $_smarty_tpl->_capture_stack[0][] = array('path', null, null); ob_start(); ?>
 	<?php if (!isset($_smarty_tpl->tpl_vars['email_create']->value)) {?><?php echo smartyTranslate(array('s'=>'Authentication'),$_smarty_tpl);?>
 <?php } else { ?>

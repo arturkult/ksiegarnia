@@ -2,7 +2,7 @@
 define('_DB_SERVER_', 'mysql:3306');
 define('_DB_NAME_', 'prestashop');
 define('_DB_USER_', 'root');
-define('_DB_PASSWD_', 'h@slo1234');
+define('_DB_PASSWD_', 'h@aslo1234');
 define('_DB_PREFIX_', 'ps_');
 define('_MYSQL_ENGINE_', 'InnoDB');
 define('_PS_CACHING_SYSTEM_', 'CacheMemcache');

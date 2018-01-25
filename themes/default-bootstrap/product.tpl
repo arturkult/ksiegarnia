@@ -22,6 +22,8 @@
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link href="http://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
 {include file="$tpl_dir./errors.tpl"}
 {if $errors|@count == 0}
 	{if !isset($priceDisplayPrecision)}
@@ -237,17 +239,19 @@
 							{l s='Print'}
 						</a>
 					</li>
-				</ul>
-				<div class="rating">
-	<form action="">
+				</ul>	
+		<div id="stars">
+			<form action="">
 		<label for='star1'>1</label><input id="star1" type="radio" name="star" value="1">
 		<label for='star2'>2</label><input id="star2" type="radio" name="star" value="2">
 		<label for='star3'>3</label><input id="star3" type="radio" name="star" value="3">
 		<label for='star4'>4</label><input id="star4" type="radio" name="star" value="4">
 		<label for='star5'>5</label><input id="star5" type="radio" name="star" value="5">
-		<input type="submit" name="123" value="Oceń">
-	</form>
-</div>
+		<input type="button" name="ratingButton" value="Oceń">
+			</form>
+		<span class="hidden thanks">Dziękuję za ocenę</span>
+		</div>	
+
 			{/if}
 		</div>
 		<!-- end center infos-->

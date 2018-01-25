@@ -138,10 +138,11 @@ var ajaxCart = {
 			var idProductAttribute =  parseInt($(this).data('id-product-attribute'));
 			var minimalQuantity =  parseInt($(this).data('minimal_quantity'));
 			var isOnline = $(".ajax_add_to_cart_button").parent().parent().parent().prev().children().children(".online_only").length;
+			var customer_id = $("#customer_id").text();
 			if (!minimalQuantity)
 				minimalQuantity = 1;
 			if ($(this).prop('disabled') != 'disabled')
-				ajaxCart.add(idProduct, idProductAttribute, false, this, minimalQuantity,null,name,category,price,promo);
+				ajaxCart.add(idProduct, idProductAttribute, false, this, minimalQuantity,null,name,category,price,promo,customer_id);
 		});
 		//for product page 'add' button...
 		if ($('.cart_block').length) {
@@ -151,7 +152,8 @@ var ajaxCart = {
 				var category = window.location.href.split("/")[3];
 				var name =  $("[itemprop='name']").text();
 				var promo = $("#reduction_percent_display").text().length;
-				ajaxCart.add($('#product_page_product_id').val(), $('#idCombination').val(), true, null, $('#quantity_wanted').val(), null,name,category,price,promo);
+				var customer_id = $("#customer_id").text();
+				ajaxCart.add($('#product_page_product_id').val(), $('#idCombination').val(), true, null, $('#quantity_wanted').val(), null,name,category,price,promo,customer_id);
 			});
 		}
 
@@ -164,6 +166,7 @@ var ajaxCart = {
 			var productAttributeId = 0;
 			var customizableProductDiv = $($(this).parent().parent()).find("div[data-id^=deleteCustomizableProduct_]");
 			var idAddressDelivery = false;
+			var customer_id=$("#customer_id").text();
 
 			if (customizableProductDiv && $(customizableProductDiv).length)
 			{
@@ -195,7 +198,7 @@ var ajaxCart = {
 			}
 
 			// Removing product from the cart
-			ajaxCart.remove(productId, productAttributeId, customizationId, idAddressDelivery);
+			ajaxCart.remove(productId, productAttributeId, customizationId, idAddressDelivery,customer_id);
 		});
 	},
 
@@ -287,8 +290,11 @@ var ajaxCart = {
 	// close fancybox
 	updateFancyBox : function (){},
 	// add a product in the cart via ajax
-	add : function(idProduct, idCombination, addedFromProductPage, callerElement, quantity, whishlist, name, category, price,promo){
-
+	add : function(idProduct, idCombination, addedFromProductPage, callerElement, quantity, whishlist, name, category, price,promo,customer_id){
+		//if(customer_id!="")
+		//{
+		//	sendToRecommender(customer_id,idProduct,2);
+		//}
 		if (addedFromProductPage && !checkCustomizations())
 		{
 			if (contentOnly)
@@ -420,8 +426,10 @@ var ajaxCart = {
 	},
 
 	//remove a product from the cart via ajax
-	remove : function(idProduct, idCombination, customizationId, idAddressDelivery){
+	remove : function(idProduct, idCombination, customizationId, idAddressDelivery,customer_id){
 		//send the ajax request to the server
+		//if(customer_id!="")
+		//	sendToRecommender(customer_id,idProduct,1);
 		$.ajax({
 			type: 'POST',
 			headers: { "cache-control": "no-cache" },
@@ -431,7 +439,7 @@ var ajaxCart = {
 			dataType : "json",
 			data: 'controller=cart&delete=1&id_product=' + idProduct + '&ipa=' + ((idCombination != null && parseInt(idCombination)) ? idCombination : '') + ((customizationId && customizationId != null) ? '&id_customization=' + customizationId : '') + '&id_address_delivery=' + idAddressDelivery + '&token=' + static_token + '&ajax=true',
 			success: function(jsonData)	{
-				GoogleAnalyticEnhancedECommerce.removeFromCart({'id':idProduct,'name':name,'category':category,'price':price,'quantity':quantity});		
+				//GoogleAnalyticEnhancedECommerce.removeFromCart({'id':idProduct,'name':name,'category':category,'price':price,'quantity':quantity});		
 				ajaxCart.updateCart(jsonData);
 				if ($('body').attr('id') == 'order' || $('body').attr('id') == 'order-opc')
 					deleteProductFromSummary(idProduct+'_'+idCombination+'_'+customizationId+'_'+idAddressDelivery);
@@ -907,3 +915,4 @@ function crossselling_serialScroll()
 			pager: false
 		});
 }
+

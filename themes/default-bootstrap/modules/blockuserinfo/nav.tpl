@@ -1,6 +1,7 @@
 <!-- Block user information module NAV  -->
 {if $is_logged}
 	<div class="header_user_info">
+	<span class="hidden" id="customer_id">{$cookie->id_customer}</span>
 		<a href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}" title="{l s='View my customer account' mod='blockuserinfo'}" class="account" rel="nofollow"><span>{$cookie->customer_firstname} {$cookie->customer_lastname}</span></a>
 	</div>
 {/if}

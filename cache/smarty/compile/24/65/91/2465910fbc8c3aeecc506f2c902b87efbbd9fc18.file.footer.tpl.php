@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-01-19 20:19:28
+<?php /* Smarty version Smarty-3.1.19, created on 2018-01-25 13:33:59
          compiled from "/var/www/html/themes/default-bootstrap/footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:16714119655a6244c06ef178-30156846%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:19928687925a69ceb7ba40d4-22216894%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '2465910fbc8c3aeecc506f2c902b87efbbd9fc18' => 
     array (
       0 => '/var/www/html/themes/default-bootstrap/footer.tpl',
-      1 => 1516180729,
+      1 => 1516654097,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '16714119655a6244c06ef178-30156846',
+  'nocache_hash' => '19928687925a69ceb7ba40d4-22216894',
   'function' => 
   array (
   ),
@@ -24,9 +24,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a6244c071b532_90690023',
+  'unifunc' => 'content_5a69ceb7bce901_93778861',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a6244c071b532_90690023')) {function content_5a6244c071b532_90690023($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a69ceb7bce901_93778861')) {function content_5a69ceb7bce901_93778861($_smarty_tpl) {?>
+
+
 <?php if (!isset($_smarty_tpl->tpl_vars['content_only']->value)||!$_smarty_tpl->tpl_vars['content_only']->value) {?>
 					</div><!-- #center_column -->
 					<?php if (isset($_smarty_tpl->tpl_vars['right_column_size']->value)&&!empty($_smarty_tpl->tpl_vars['right_column_size']->value)) {?>
@@ -51,4 +53,5 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['tpl_dir']->value)."./global.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 	</body>
-</html><?php }} ?>
+</html>
+<?php }} ?>

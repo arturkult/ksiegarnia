@@ -117,7 +117,91 @@ $(document).ready(function(){
 		if (e.offsetX >= 16 && e.offsetX <= 39 && e.offsetY >= 16 && e.offsetY <= 34)
 			$(this).fadeOut();
 	});
+	if($("body#index").length!=0)
+	{
+	if($("#customer_id").text()=="")
+		$("#top_column").addClass("hidden");
+	else
+	{
+	//$("#topcolumn").length!=0
+		var customer_id = $("#customer_id").text();
+		var url = "http://172.20.83.35:8080/recommender/recommend?customer_id="+customer_id;
+		console.log(url);
+	   
+	$.getJSON(url,function(data){
+		if(data.length==0)
+			$("#top_column").children("p").text("brak");
+		else
+		{
+			var recommends = $("#top_column").children()[0];
+			$.each(data,function(i,item)
+			{
+				$.ajax({	url:"http://86E3P26SR1S83SSEJ4LIPGD84Y483Z4E@172.20.83.35/api/products/"+item["itemID"],
+					success:function(productData)
+				{
+					var container = $("<div class='product-container'>").appendTo(recommends);
+					var left_block = $("<div class='left-block'>").appendTo(container);
+					var product_image_container = $("<div class='product-image-container'>").appendTo(left_block);
+					var product_img_link = $("<a class='product_img_link' itemprop='url'>").appendTo(product_image_container);
+					var category_link = $(productData).find("product>associations>categories>category").attr("xlink:href");
+					var category;
+					var link;
+					$.ajax({
+						url: category_link,
+						success: function(categoriesData)
+						{
+							category= $(categoriesData).find("category>link_rewrite>language").text();
+							link = "http://172.20.83.35/"+category+"/"+item['product_id']+"-"+$(productData).find("product>link_rewrite>language").text()+".html";
+							$(product_img_link).attr({"href": link, title: $(productData).find("product>name>language").text()}).text($(productData).find("product>name>language").text());	
+						}
+					});
+					
+					//console.log(category);
+										//$("<a class='product_img_link'").appendTo(product-image-container).attr("href",$(data).find(
+								},
+				dataType: "xml"});	
+				
+			});
+		}
+	});
+	}
+	}
 });
+
+function getCategoryNameById(category_id)
+{
+	$.get({
+		url:"http://86E3P26SR1S83SSEJ4LIPGD84Y483Z4E@172.20.83.35/api/categories/"+category_id,
+		success: function(data)
+			{
+			console.log(data);
+			return $(data).find("category>link_rewrite>language").text();
+			}
+		});
+}
+
+function sendToRecommender(customer_id,product_id,rating)
+{
+var url = "http://172.20.83.35:8080/recommender/addRating?customer_id=" + customer_id + "&product_id=" + product_id + "&rating="+rating;
+    $.ajax({
+        url: url,
+        type: 'GET',
+        dataType: 'jsonp',
+        cors: true,
+        contentType: 'application/json',
+        secure: true,
+        headers: {
+            'Access-Control-Allow-Origin': '*',
+        },
+        beforeSend: function(xhr) {
+            xhr.setRequestHeader("Authorization", "Basic " + btoa(""));
+        },
+        success: function(data) {
+            console.log("udalo sie");
+        }
+    });
+}
+
 
 function highdpiInit()
 {

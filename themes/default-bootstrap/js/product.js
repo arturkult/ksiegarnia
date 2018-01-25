@@ -116,6 +116,26 @@ if (typeof combinations !== 'undefined' && combinations)
 /* */
 $(document).ready(function()
 {
+	$("[name='ratingButton']").click(function(e)
+{
+	e.preventDefault();
+	if($("#customer_id").text()!='')
+		if($("input[name='star']:checked").length!=0)
+		{
+			var product_id = $("#product").attr("class").split(/\s/)[1].replace("product-","");
+			var rating = $("input[name='star']:checked").val();
+			var customer_id = $("#customer_id").text();
+			sendToRecommender(customer_id,product_id,rating);
+			$("#stars>form").fadeOut(1000);	
+			$(".thanks").removeClass("hidden").text($(".thanks").text()+" "+rating);
+		}
+});
+	//console.log("products");
+	var product_id = $("#product").attr("class").split(/\s/)[1].replace("product-","");
+//	console.log(product_id);
+//	var customer_id = $("#customer_id").text();
+//	if(customer_id!="")
+//		sendToRecommender(customer_id,product_id,1);
 	var url_found = checkUrl();
 	//init the price in relation of the selected attributes
 	if (!url_found)
